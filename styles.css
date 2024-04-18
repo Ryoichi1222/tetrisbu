@@ -14,7 +14,27 @@ body, h1, h2, h3, p, ul, li, form, input, textarea, button {
     text-align: center;
     padding: 20px 0;
   }
+
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
   
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #777;
+  }
+
+
   main {
     padding: 20px;
   }
